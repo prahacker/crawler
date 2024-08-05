@@ -1,4 +1,4 @@
-# crawler
+# Crawler
 website crawler to find directories
 # Web Crawler: Search Directories
 
