@@ -36,7 +36,9 @@ python web_crawler.py [-h] [-d DEPTH] [-v] [-f FILE] [-b BUCKET] [-s S3FILE] web
 **Output:** The script will display a list of existing directories found during the crawl.
 
 ## Example
+```sh
 python web_crawler.py -d 5 -v -b my-s3-bucket -s directories.txt https://example.com
+```
 This command will initiate the web crawler, searching for directories on `https://example.com` up to a depth of 5 and displaying verbose output and save the output to s3 bucket.
 
 ## Important Notes
