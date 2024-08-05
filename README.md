@@ -31,7 +31,7 @@ This Python script crawls a given website to search for directories and optional
 
 ```sh
 python web_crawler.py [-h] [-d DEPTH] [-v] [-f FILE] [-b BUCKET] [-s S3FILE] website
-'''
+```
 
 **Output:** The script will display a list of existing directories found during the crawl.
 
